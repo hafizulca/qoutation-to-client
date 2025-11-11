@@ -3,76 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perbandingan Quotation PRUBSN Anugerah Max</title>
+    <title>Ringkasan Manfaat & Syarat PRUBSN Anugerah Max</title>
     <style>
+        /* CSS Styling - Clean, Professional, and Easy to Read */
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8faff; /* Very light blue/white background */
             color: #333;
         }
         .container {
-            max-width: 900px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
         }
         h1 {
             text-align: center;
-            color: #004d40;
-            margin-bottom: 20px;
+            color: #1a73e8; /* Google Blue - professional look */
+            margin-bottom: 5px;
+            font-size: 2.2em;
         }
-        table {
+        h2 {
+            color: #00897b; /* Teal - calming and professional */
+            margin-top: 30px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e0f2f1;
+            font-size: 1.5em;
+        }
+        p.intro {
+            text-align: center;
+            color: #555;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        /* Table Styling (Manfaat Perbandingan) */
+        .comparison-table {
             width: 100%;
-            border-collapse: collapse;
+            border-collapse: separate;
+            border-spacing: 0;
             margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 12px;
+        .comparison-table th, .comparison-table td {
+            padding: 14px 15px;
             text-align: left;
+            border: none;
         }
-        th {
-            background-color: #e0f2f1;
-            color: #004d40;
+        .comparison-table th {
+            background-color: #4db6ac; /* Soft Teal Header */
+            color: white;
+            font-weight: 600;
+        }
+        .comparison-table tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+        .comparison-table tr:hover {
+            background-color: #e6f7ff;
+        }
+        .premium-row td {
+            background-color: #fff3e0; /* Light Orange/Cream highlight */
             font-weight: bold;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        .highlight {
-            background-color: #c8e6c9;
-            font-weight: bold;
+            color: #e65100;
         }
         .note {
             font-style: italic;
-            color: #555;
-            font-size: 0.9em;
+            color: #757575;
+            font-size: 0.85em;
         }
+
+        /* Waiting Period & Critical Illnesses Styling */
+        .section-box {
+            background-color: #f7fcfc;
+            border: 1px solid #e0f2f1;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .flex-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .waiting-period-card {
+            flex: 1 1 280px; /* Allow cards to wrap */
+            background: #ffffff;
+            border: 1px solid #b2dfdb;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        .waiting-period-card h3 {
+            color: #004d40; /* Dark Teal */
+            margin-top: 0;
+            font-size: 1.5em;
+            border-bottom: 1px dashed #e0e0e0;
+            padding-bottom: 5px;
+        }
+        .waiting-period-card p {
+            text-align: center;
+            margin: 5px 0 0 0;
+            font-size: 1em;
+        }
+        .list-style {
+            padding-left: 20px;
+            text-align: left;
+            margin: 10px 0;
+        }
+        .list-style li {
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+
+        /* Critical Illnesses (for better layout) */
+        .ci-list {
+            column-count: 2; /* 2 columns for the list */
+            column-gap: 30px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .ci-list li {
+            margin-bottom: 5px;
+            padding-left: 10px;
+            position: relative;
+        }
+        .ci-list li:before {
+            content: '•';
+            color: #00897b;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>💰 Perbandingan Quotation PRUBSN Anugerah Max</h1>
-    <p>Perbandingan manfaat dan perlindungan antara Plan A dan Plan B dari produk **PRUBSN Anugerah Max**.</p>
+    <h1><span style="color: #4db6ac;">✅</span> Ringkasan Manfaat Takaful PRUBSN Anugerah Max</h1>
+    <p class="intro">Maklumat perbandingan Plan A & Plan B, Tempoh Menunggu, dan senarai Penyakit Kritikal yang dilindungi.</p>
     
-    <table>
+    <h2>1. Perbandingan Pelan (Plan A vs. Plan B)</h2>
+    
+    <table class="comparison-table">
         <thead>
             <tr>
                 <th>Manfaat / Perlindungan</th>
                 <th>Plan A</th>
                 <th>Plan B</th>
-                <th>Nota Tambahan</th>
+                <th>Nota Agensi</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td class="highlight">Premium Bulanan</td>
-                <td class="highlight">RM208.00</td>
-                <td class="highlight">RM197.00</td>
+            <tr class="premium-row">
+                <td>Premium Bulanan</td>
+                <td>RM208.00</td>
+                <td>RM197.00</td>
                 <td></td>
             </tr>
             <tr>
@@ -130,12 +224,6 @@
                 <td></td>
             </tr>
             <tr>
-                <td>Contribution Option</td>
-                <td>Step-Up</td>
-                <td>Step-Up</td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>Saver</td>
                 <td>RM10.00</td>
                 <td>N/A</td>
@@ -154,6 +242,18 @@
                 <td class="note">income protector</td>
             </tr>
             <tr>
+                <td>Certificates Validity (Participant Age)</td>
+                <td>70</td>
+                <td>70</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Contribution Option</td>
+                <td>Step-Up</td>
+                <td>Step-Up</td>
+                <td></td>
+            </tr>
+            <tr>
                 <td>Contributor Protect</td>
                 <td>N/A</td>
                 <td>N/A</td>
@@ -165,24 +265,111 @@
                 <td>N/A</td>
                 <td></td>
             </tr>
-            <tr>
-                <td>Certificates Validity (Participant Age)</td>
-                <td>70</td>
-                <td>70</td>
-                <td></td>
-            </tr>
         </tbody>
     </table>
 
     <hr>
     
-    <h2>Maklumat Tambahan Mengenai PruBSN</h2>
-    <p>Prudential BSN Takaful Berhad ("PruBSN") adalah operator takaful yang didaftarkan di bawah **Akta Perkhidmatan Kewangan Islam 2013** dan dikawal selia oleh **Bank Negara Malaysia (BNM)**.</p>
+    <h2>2. Tempoh Menunggu (Waiting Period)</h2>
+    <p style="text-align: left; color: #1a73e8; font-weight: 500;">Tempoh menunggu sebelum perlindungan untuk manfaat tertentu berkuat kuasa:</p>
     
+    <div class="flex-row">
+        
+        <div class="waiting-period-card">
+            <h3>None</h3>
+            <p>For <strong>accidental injuries</strong></p>
+        </div>
+        
+        <div class="waiting-period-card">
+            <h3>30 days</h3>
+            <p>For <strong>any medical or physical conditions</strong></p>
+        </div>
+
+        <div class="waiting-period-card">
+            <h3>90 days</h3>
+            <p>Hospital Alliance Services (HAS) facility available</p>
+        </div>
+
+        <div class="waiting-period-card" style="flex-basis: 48%;">
+            <h3>120 days</h3>
+            <ul class="list-style">
+                <li>For <strong>Specified Illnesses</strong>:
+                    <ul style="list-style-type: circle;">
+                        <li>Hypertension, diabetes mellitus and Cardiovascular disease;</li>
+                        <li>All tumours, cancers, cysts, nodules, polyps, stones of the urinary system and biliary system;</li>
+                        <li>All ear, nose (including sinuses) and throat conditions;</li>
+                        <li>Hernias, haemorrhoids, fistulae, hydrocele, varicocele;</li>
+                        <li>Endometriosis including disease of the Reproduction system;</li>
+                        <li>Vertebro-spinal disorders (including disc) and knee conditions.</li>
+                    </ul>
+                </li>
+                <li>For <strong>Additional Annual Limit</strong> (Cancer, Heart Attack or Kidney Failure)</li>
+                <li>For <strong>Treatment Allowance</strong> (Chemotherapy, Radiotherapy, Kidney Dialysis or Post Heart Attack follow up care)</li>
+            </ul>
+        </div>
+        
+        <div class="waiting-period-card" style="flex-basis: 48%;">
+            <h3>365 days</h3>
+            <p style="font-size: 1.1em; font-weight: bold;">For <strong>Maternity Complications</strong> and <strong>Hajj/Umrah Immunisation Benefit</strong></p>
+        </div>
+        
+    </div>
+
     <hr>
 
-    <div style="text-align: center; margin-top: 30px;">
-        <small>Ini adalah perbandingan berdasarkan data yang disediakan dan mungkin tidak merangkumi semua terma dan syarat.</small>
+    <h2>3. Senarai Penyakit Kritikal (43 Jenis)</h2>
+    <p style="text-align: left; color: #1a73e8; font-weight: 500;">Senarai ini dilindungi di bawah Critical Illness. (Kecuali Angioplasty and Other Invasive Treatments for Coronary Artery Disease yang dilindungi di bawah Income Benefit dan Contributor Benefit).</p>
+
+    <div class="section-box">
+        <ul class="ci-list">
+            <li>Stroke</li>
+            <li>Heart Attack</li>
+            <li>Kidney Failure</li>
+            <li>Cancer</li>
+            <li>Coronary Artery By-Pass Surgery</li>
+            <li>Serious Coronary Artery Disease</li>
+            <li>Angioplasty and Other Invasive Treatments for Coronary Artery Disease</li>
+            <li>End-Stage Liver Failure</li>
+            <li>Fulminant Viral Hepatitis</li>
+            <li>Coma</li>
+            <li>Benign Brain Tumor</li>
+            <li>Paralysis Of Limbs</li>
+            <li>Blindness</li>
+            <li>Deafness</li>
+            <li>Third Degree Burns</li>
+            <li>HIV Infection Due To Blood Transfusion</li>
+            <li>Occupationally Acquired Human Immunodeficiency Virus (HIV) Infection</li>
+            <li>Full-Blown AIDS</li>
+            <li>End-Stage Lung Disease</li>
+            <li>Encephalitis</li>
+            <li>Major Organ / Bone Marrow Transplant</li>
+            <li>Loss of Speech</li>
+            <li>Brain Surgery</li>
+            <li>Heart Valve Surgery</li>
+            <li>Terminal Illness</li>
+            <li>Loss Of Independent Existence</li>
+            <li>Bacterial Meningitis</li>
+            <li>Major Head Trauma</li>
+            <li>Chronic Aplastic Anemia</li>
+            <li>Motor Neuron Disease</li>
+            <li>Parkinson's Disease</li>
+            <li>Alzheimer's Disease / Severe Dementia</li>
+            <li>Muscular Dystrophy</li>
+            <li>Surgery To Aorta</li>
+            <li>Multiple Sclerosis</li>
+            <li>Primary Pulmonary Arterial Hypertension</li>
+            <li>Medullary Cystic Disease</li>
+            <li>Cardiomyopathy</li>
+            <li>Systemic Lupus Erythematosus With Severe Kidney Complications</li>
+            <li>Progressive Scleroderma</li>
+            <li>Chronic Relapsing Pancreatitis</li>
+            <li>Poliomyelitis</li>
+            <li>Apallic Syndrome</li>
+        </ul>
+    </div>
+    
+    <div style="text-align: center; margin-top: 30px; color: #757575;">
+        <small>Ini adalah ringkasan perbandingan dan maklumat polisi. Sila rujuk dokumen sijil takaful untuk terma dan syarat yang lengkap.</small>
     </div>
 </div>
 
