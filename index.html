@@ -54,6 +54,10 @@
                 font-size: 1rem; /* text-base */
             }
         }
+        /* Ensure description text wraps normally to prevent overflow into next column */
+        .benefit-description {
+            white-space: normal;
+        }
         /* Override default padding for the benefit column on mobile */
         @media (max-width: 767px) {
              .benefit-column {
@@ -105,9 +109,9 @@
 
                     <!-- Row 1: Death Hibah & TPD -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit1Title">Death Hibah & TPD</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit1Desc">Pembayaran sekaligus jika berlaku kematian atau hilang upaya kekal & menyeluruh.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit1Desc">Pembayaran sekaligus jika berlaku kematian atau hilang upaya kekal & menyeluruh.</div>
                         </td>
                         <td class="plan-data">RM25,000.00</td>
                         <td class="plan-data">RM25,000.00</td>
@@ -117,9 +121,9 @@
 
                     <!-- Row 2: Crisis Shield -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit2Title">Crisis Shield (43 penyakit kritikal)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit2Desc">Pembayaran sekali gus jika didiagnosis 1 daripada 43 penyakit kritikal.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit2Desc">Pembayaran sekali gus jika didiagnosis 1 daripada 43 penyakit kritikal.</div>
                         </td>
                         <td class="plan-data">RM0.00</td>
                         <td class="plan-data">RM20,000.00</td>
@@ -129,9 +133,9 @@
 
                     <!-- Row 3: Accidental Protector Plus -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit3Title">Accidental Protector Plus</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit3Desc">Perlindungan tambahan untuk kematian atau TPD akibat kemalangan.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit3Desc">Perlindungan tambahan untuk kematian atau TPD akibat kemalangan.</div>
                         </td>
                         <td class="plan-data">RM25,000.00</td>
                         <td class="plan-data">RM25,000.00</td>
@@ -141,9 +145,9 @@
 
                     <!-- Row 4: Accidental Medical Protector -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit4Title">Accidental Medical Protector</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit4Desc">Tanggungjawab untuk kos perubatan akibat kemalangan (termasuk susulan).</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit4Desc">Tanggungjawab untuk kos perubatan akibat kemalangan (termasuk susulan).</div>
                         </td>
                         <td class="plan-data">RM2,000.00</td>
                         <td class="plan-data">RM2,000.00</td>
@@ -153,9 +157,9 @@
 
                     <!-- Row 5: Room/board (per day) -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit5Title">Room/board (per day)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit5Desc">Had harian untuk kos bilik dan penginapan di hospital.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit5Desc">Had harian untuk kos bilik dan penginapan di hospital.</div>
                         </td>
                         <td class="plan-data">RM150.00</td>
                         <td class="plan-data">RM200.00</td>
@@ -165,9 +169,9 @@
 
                     <!-- Row 6: Annual Limit (per year) -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit6Title">Annual Limit (per year)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit6Desc">Had maksimum perlindungan perubatan yang ditanggung setahun.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit6Desc">Had maksimum perlindungan perubatan yang ditanggung setahun.</div>
                         </td>
                         <td class="plan-data">RM150,000.00</td>
                         <td class="plan-data">RM200,000.00</td>
@@ -177,9 +181,9 @@
 
                     <!-- Row 7: Lifetime Limit -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit7Title">Lifetime Limit</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit7Desc">Had maksimum keseluruhan perlindungan perubatan sepanjang tempoh sijil.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit7Desc">Had maksimum keseluruhan perlindungan perubatan sepanjang tempoh sijil.</div>
                         </td>
                         <td class="plan-data">Unlimited</td>
                         <td class="plan-data">Unlimited</td>
@@ -189,9 +193,9 @@
 
                     <!-- Row 8: Additional Limit -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit8Title">Additional Limit (Heart Attack/Cancer/Kidney Failure)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit8Desc">Had perbelanjaan perubatan tambahan untuk 3 penyakit kritikal utama ini.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit8Desc">Had perbelanjaan perubatan tambahan untuk 3 penyakit kritikal utama ini.</div>
                         </td>
                         <td class="plan-data">RM750K per Lifetime</td>
                         <td class="plan-data">1M per Lifetime</td>
@@ -201,9 +205,9 @@
 
                     <!-- Row 9: Gov Hosp Allowance (per day) -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit9Title">Gov Hosp Allowance (per day)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit9Desc">Bayaran tunai harian jika dimasukkan ke hospital kerajaan.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit9Desc">Bayaran tunai harian jika dimasukkan ke hospital kerajaan.</div>
                         </td>
                         <td class="plan-data">RM50.00</td>
                         <td class="plan-data">RM100.00</td>
@@ -213,9 +217,9 @@
 
                     <!-- Row 10: Contribution Option -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit10Title">Contribution Option</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit10Desc">Pilihan untuk menaikkan sumbangan secara beransur-ansur dari masa ke masa.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit10Desc">Pilihan untuk menaikkan sumbangan secara beransur-ansur dari masa ke masa.</div>
                         </td>
                         <td class="plan-data">Step-Up</td>
                         <td class="plan-data">Step-Up</td>
@@ -225,9 +229,9 @@
 
                     <!-- Row 11: Saver -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit11Title">Saver</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit11Desc">Sumbangan tambahan untuk tujuan simpanan.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit11Desc">Sumbangan tambahan untuk tujuan simpanan.</div>
                         </td>
                         <td class="plan-data">N/A</td>
                         <td class="plan-data">N/A</td>
@@ -237,9 +241,9 @@
 
                     <!-- Row 12: Coverage -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit12Title">Coverage</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit12Desc">Jenis pelan perubatan / pelan simpanan yang dipilih.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit12Desc">Jenis pelan perubatan / pelan simpanan yang dipilih.</div>
                         </td>
                         <td class="plan-data">Smart Saver 300</td>
                         <td class="plan-data">Smart Saver 300</td>
@@ -249,9 +253,9 @@
 
                     <!-- Row 13: Income Protector -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit13Title">Income Protector</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit13Desc">Bayaran pendapatan bulanan jika berlaku TPD atau penyakit kritikal.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit13Desc">Bayaran pendapatan bulanan jika berlaku TPD atau penyakit kritikal.</div>
                         </td>
                         <td class="plan-data">N/A</td>
                         <td class="plan-data">N/A</td>
@@ -261,9 +265,9 @@
 
                     <!-- Row 14: Contributor Protect -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit14Title">Contributor Protect</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit14Desc">Pelan diteruskan tanpa sumbangan jika peserta mengalami TPD/kematian.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit14Desc">Pelan diteruskan tanpa sumbangan jika peserta mengalami TPD/kematian.</div>
                         </td>
                         <td class="plan-data">N/A</td>
                         <td class="plan-data">N/A</td>
@@ -273,9 +277,9 @@
 
                     <!-- Row 15: Contributor Parent Protect -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit15Title">Contributor Parent Protect</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit15Desc">Pelan diteruskan tanpa sumbangan jika ibu bapa/penyumbang meninggal/TPD.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit15Desc">Pelan diteruskan tanpa sumbangan jika ibu bapa/penyumbang meninggal/TPD.</div>
                         </td>
                         <td class="plan-data">N/A</td>
                         <td class="plan-data">N/A</td>
@@ -285,9 +289,9 @@
 
                     <!-- Row 16: Certificates Validity -->
                     <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium whitespace-nowrap benefit-column">
+                        <td class="font-medium benefit-column">
                             <span id="benefit16Title">Certificates Validity (Participant Age)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1" id="benefit16Desc">Umur maksimum peserta di mana sijil Takaful ini masih berkuat kuasa.</div>
+                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit16Desc">Umur maksimum peserta di mana sijil Takaful ini masih berkuat kuasa.</div>
                         </td>
                         <td class="plan-data">70</td>
                         <td class="plan-data">70</td>
@@ -297,7 +301,7 @@
                     
                     <!-- PREMIUM ROW (Highlighted in Yellow/Amber) -->
                     <tr class="premium-bg text-gray-800 border-t border-gray-300">
-                        <td class="p-3 md:p-4 text-left font-extrabold whitespace-nowrap benefit-column text-sm md:text-lg rounded-bl-xl"><span id="premiumRow">Monthly Premium</span></td>
+                        <td class="p-3 md:p-4 text-left font-extrabold benefit-column text-sm md:text-lg rounded-bl-xl"><span id="premiumRow">Monthly Premium</span></td>
                         <td class="plan-data font-extrabold text-sm md:text-lg">RM166.00</td>
                         <td class="plan-data font-extrabold text-sm md:text-lg">RM186.00</td>
                         <td class="plan-data font-extrabold text-sm md:text-lg">RM177.00</td>
