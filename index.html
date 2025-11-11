@@ -1,445 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ms">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">PRUBSN Quotation Comparison</title>
-    <!-- Load Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Perbandingan Quotation PRUBSN Anugerah Max</title>
     <style>
-        /* Custom font for a clean, professional look */
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8fafc; /* Slate-50 background */
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
         }
-        /* Custom colors based on the image for a polished look */
-        .header-bg {
-            background-color: #0d47a1; /* Darker Blue for Main Header */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .benefit-header-bg {
-            background-color: #1565c0; /* Medium Blue for Benefit Row */
-        }
-        .premium-bg {
-            background-color: #ffb300; /* Amber/Yellow for Premium Row */
-            font-weight: 700;
-        }
-        .footer-bg {
-            background-color: #fff3e0; /* Light Orange/Yellow for Footer */
-            font-size: 0.875rem; /* text-sm */
-        }
-        /* Style for the active language switch button */
-        .lang-active {
-            background-color: #1565c0;
-            color: white;
-        }
-        /* Base styles for table cells */
-        .plan-data {
-            padding: 0.75rem 0.5rem; /* Default padding for plans */
+        h1 {
             text-align: center;
-            white-space: nowrap;
-            /* Default text size for mobile/small screens */
-            font-size: 0.75rem; /* text-xs */
+            color: #004d40;
+            margin-bottom: 20px;
         }
-        /* Benefit column styling */
-        .benefit-column {
-            width: 45%; /* Fixed width for larger screens */
-            min-width: 250px; /* Minimum width for the benefit column */
-            padding: 0.75rem;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
         }
-        /* Responsive adjustments for medium/tablet screens and above */
-        @media (min-width: 768px) {
-            .plan-data {
-                padding: 1rem 0.75rem; /* Increase padding for tablet/desktop */
-                font-size: 1rem; /* text-base */
-            }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
         }
-        /* Ensure description text wraps normally to prevent overflow into next column */
-        .benefit-description {
-            white-space: normal;
+        th {
+            background-color: #e0f2f1;
+            color: #004d40;
+            font-weight: bold;
         }
-        /* Override default padding for the benefit column on mobile */
-        @media (max-width: 767px) {
-             .benefit-column {
-                padding: 0.5rem;
-            }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .highlight {
+            background-color: #c8e6c9;
+            font-weight: bold;
+        }
+        .note {
+            font-style: italic;
+            color: #555;
+            font-size: 0.9em;
         }
     </style>
 </head>
-<body class="p-0 md:p-8">
+<body>
 
-    <div class="w-full mx-auto bg-white shadow-xl rounded-xl overflow-hidden">
-        <!-- Main container now uses w-full and responsive padding on body -->
+<div class="container">
+    <h1>💰 Perbandingan Quotation PRUBSN Anugerah Max</h1>
+    <p>Perbandingan manfaat dan perlindungan antara Plan A dan Plan B dari produk **PRUBSN Anugerah Max**.</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Manfaat / Perlindungan</th>
+                <th>Plan A</th>
+                <th>Plan B</th>
+                <th>Nota Tambahan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="highlight">Premium Bulanan</td>
+                <td class="highlight">RM208.00</td>
+                <td class="highlight">RM197.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Death Hibah & TPD</td>
+                <td>RM15,000.00</td>
+                <td>RM13,000.00</td>
+                <td class="note">Ni Basic</td>
+            </tr>
+            <tr>
+                <td>Crisis Shield (43 penyakit kritikal)</td>
+                <td>RM10,000.00</td>
+                <td>RM10,000.00</td>
+                <td class="note">Boleh remove</td>
+            </tr>
+            <tr>
+                <td>Accidental Protector Plus</td>
+                <td>RM20,000.00</td>
+                <td>RM20,000.00</td>
+                <td class="note">basic</td>
+            </tr>
+            <tr>
+                <td>Accidental Medical Protector</td>
+                <td>RM3,000.00</td>
+                <td>RM3,000.00</td>
+                <td class="note">basic</td>
+            </tr>
+            <tr>
+                <td>Room/board (per day)</td>
+                <td>RM200.00</td>
+                <td>RM200.00</td>
+                <td class="note">harga bilik</td>
+            </tr>
+            <tr>
+                <td>Annual Limit (per year)</td>
+                <td>RM200,000.00</td>
+                <td>RM200,000.00</td>
+                <td class="note">cover setahun</td>
+            </tr>
+            <tr>
+                <td>Lifetime Limit</td>
+                <td>Unlimited</td>
+                <td>Unlimited</td>
+                <td class="note">life time</td>
+            </tr>
+            <tr>
+                <td>Additional Limit (Heart Attack/Cancer/Kidney Failure)</td>
+                <td>1M per Lifetime</td>
+                <td>1M per Lifetime</td>
+                <td class="note">lifetime</td>
+            </tr>
+            <tr>
+                <td>Gov Hosp Allowance (per day)</td>
+                <td>RM100.00</td>
+                <td>RM100.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Contribution Option</td>
+                <td>Step-Up</td>
+                <td>Step-Up</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Saver</td>
+                <td>RM10.00</td>
+                <td>N/A</td>
+                <td class="note">boleh remove</td>
+            </tr>
+            <tr>
+                <td>Coverage</td>
+                <td>Smart Saver 300</td>
+                <td>Smart Saver 300</td>
+                <td class="note">self bayar 300 selebihnya prudetial bayar</td>
+            </tr>
+            <tr>
+                <td>Income Protector</td>
+                <td>RM4,000</td>
+                <td>RM4,000</td>
+                <td class="note">income protector</td>
+            </tr>
+            <tr>
+                <td>Contributor Protect</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Contributor Parent Protect</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Certificates Validity (Participant Age)</td>
+                <td>70</td>
+                <td>70</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
 
-        <!-- Language Switcher -->
-        <div class="p-3 md:p-4 bg-gray-100 flex justify-end">
-            <div id="language-switcher" class="inline-flex rounded-lg shadow-sm border border-gray-300">
-                <button id="lang-ms" onclick="updateLanguage('ms')" class="px-3 py-1 md:px-4 md:py-2 text-xs md:text-sm font-medium rounded-l-lg transition lang-active">
-                    Melayu
-                </button>
-                <button id="lang-en" onclick="updateLanguage('en')" class="px-3 py-1 md:px-4 md:py-2 text-xs md:text-sm font-medium rounded-r-lg text-gray-700 hover:bg-gray-200 transition">
-                    English
-                </button>
-            </div>
-        </div>
+    <hr>
+    
+    <h2>Maklumat Tambahan Mengenai PruBSN</h2>
+    <p>Prudential BSN Takaful Berhad ("PruBSN") adalah operator takaful yang didaftarkan di bawah **Akta Perkhidmatan Kewangan Islam 2013** dan dikawal selia oleh **Bank Negara Malaysia (BNM)**.</p>
+    
+    <hr>
 
-        <!-- Main Title Header -->
-        <div class="header-bg p-4 md:p-6 text-white text-xl md:text-2xl font-bold">
-            <span id="mainTitle">Perbandingan Quotation PRUBSN Anugerah Max</span>
-        </div>
-
-        <!-- Table Container - Enables Horizontal Scroll on Small Screens -->
-        <!-- overflow-x-auto is necessary to prevent data collision on small screens -->
-        <div class="overflow-x-auto">
-            <table class="w-full text-sm md:text-base border-collapse table-fixed min-w-[700px]">
-                <thead>
-                    <!-- Benefit Header Row -->
-                    <tr>
-                        <th class="benefit-header-bg text-white p-3 md:p-4 text-left whitespace-nowrap benefit-column rounded-tl-xl">
-                            <span class="inline-flex items-center text-sm md:text-base"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg> <span id="benefitHeader">Manfaat / Perlindungan</span></span>
-                        </th>
-                        <th class="benefit-header-bg text-white p-3 md:p-4 text-center">Plan A</th>
-                        <th class="benefit-header-bg text-white p-3 md:p-4 text-center">Plan B</th>
-                        <th class="benefit-header-bg text-white p-3 md:p-4 text-center">Plan C</th>
-                        <th class="benefit-header-bg text-white p-3 md:p-4 text-center rounded-tr-xl">Plan D</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Data Rows (using data-keys for dynamic text updates) -->
-
-                    <!-- Row 1: Death Hibah & TPD -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit1Title">Death Hibah & TPD</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit1Desc">Pembayaran sekaligus jika berlaku kematian atau hilang upaya kekal & menyeluruh.</div>
-                        </td>
-                        <td class="plan-data">RM25,000.00</td>
-                        <td class="plan-data">RM25,000.00</td>
-                        <td class="plan-data">RM15,000.00</td>
-                        <td class="plan-data">RM15,000.00</td>
-                    </tr>
-
-                    <!-- Row 2: Crisis Shield -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit2Title">Crisis Shield (43 penyakit kritikal)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit2Desc">Pembayaran sekali gus jika didiagnosis 1 daripada 43 penyakit kritikal.</div>
-                        </td>
-                        <td class="plan-data">RM0.00</td>
-                        <td class="plan-data">RM20,000.00</td>
-                        <td class="plan-data">RM10,000.00</td>
-                        <td class="plan-data">RM10,000.00</td>
-                    </tr>
-
-                    <!-- Row 3: Accidental Protector Plus -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit3Title">Accidental Protector Plus</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit3Desc">Perlindungan tambahan untuk kematian atau TPD akibat kemalangan.</div>
-                        </td>
-                        <td class="plan-data">RM25,000.00</td>
-                        <td class="plan-data">RM25,000.00</td>
-                        <td class="plan-data">RM20,000.00</td>
-                        <td class="plan-data">RM2,000.00</td>
-                    </tr>
-
-                    <!-- Row 4: Accidental Medical Protector -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit4Title">Accidental Medical Protector</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit4Desc">Tanggungjawab untuk kos perubatan akibat kemalangan (termasuk susulan).</div>
-                        </td>
-                        <td class="plan-data">RM2,000.00</td>
-                        <td class="plan-data">RM2,000.00</td>
-                        <td class="plan-data">RM2,000.00</td>
-                        <td class="plan-data">RM2,000.00</td>
-                    </tr>
-
-                    <!-- Row 5: Room/board (per day) -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit5Title">Room/board (per day)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit5Desc">Had harian untuk kos bilik dan penginapan di hospital.</div>
-                        </td>
-                        <td class="plan-data">RM150.00</td>
-                        <td class="plan-data">RM200.00</td>
-                        <td class="plan-data">RM200.00</td>
-                        <td class="plan-data">RM200.00</td>
-                    </tr>
-
-                    <!-- Row 6: Annual Limit (per year) -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit6Title">Annual Limit (per year)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit6Desc">Had maksimum perlindungan perubatan yang ditanggung setahun.</div>
-                        </td>
-                        <td class="plan-data">RM150,000.00</td>
-                        <td class="plan-data">RM200,000.00</td>
-                        <td class="plan-data">RM200,000.00</td>
-                        <td class="plan-data">RM200,000.00</td>
-                    </tr>
-
-                    <!-- Row 7: Lifetime Limit -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit7Title">Lifetime Limit</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit7Desc">Had maksimum keseluruhan perlindungan perubatan sepanjang tempoh sijil.</div>
-                        </td>
-                        <td class="plan-data">Unlimited</td>
-                        <td class="plan-data">Unlimited</td>
-                        <td class="plan-data">Unlimited</td>
-                        <td class="plan-data">Unlimited</td>
-                    </tr>
-
-                    <!-- Row 8: Additional Limit -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit8Title">Additional Limit (Heart Attack/Cancer/Kidney Failure)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit8Desc">Had perbelanjaan perubatan tambahan untuk 3 penyakit kritikal utama ini.</div>
-                        </td>
-                        <td class="plan-data">RM750K per Lifetime</td>
-                        <td class="plan-data">1M per Lifetime</td>
-                        <td class="plan-data">1M per Lifetime</td>
-                        <td class="plan-data">1M per Lifetime</td>
-                    </tr>
-
-                    <!-- Row 9: Gov Hosp Allowance (per day) -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit9Title">Gov Hosp Allowance (per day)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit9Desc">Bayaran tunai harian jika dimasukkan ke hospital kerajaan.</div>
-                        </td>
-                        <td class="plan-data">RM50.00</td>
-                        <td class="plan-data">RM100.00</td>
-                        <td class="plan-data">RM100.00</td>
-                        <td class="plan-data">RM100.00</td>
-                    </tr>
-
-                    <!-- Row 10: Contribution Option -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit10Title">Contribution Option</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit10Desc">Pilihan untuk menaikkan sumbangan secara beransur-ansur dari masa ke masa.</div>
-                        </td>
-                        <td class="plan-data">Step-Up</td>
-                        <td class="plan-data">Step-Up</td>
-                        <td class="plan-data">Step-Up</td>
-                        <td class="plan-data">Step-Up</td>
-                    </tr>
-
-                    <!-- Row 11: Saver -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit11Title">Saver</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit11Desc">Sumbangan tambahan untuk tujuan simpanan.</div>
-                        </td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">RM10.00</td>
-                    </tr>
-
-                    <!-- Row 12: Coverage -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit12Title">Coverage</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit12Desc">Jenis pelan perubatan / pelan simpanan yang dipilih.</div>
-                        </td>
-                        <td class="plan-data">Smart Saver 300</td>
-                        <td class="plan-data">Smart Saver 300</td>
-                        <td class="plan-data">Smart Saver 300</td>
-                        <td class="plan-data">Smart Saver 300</td>
-                    </tr>
-
-                    <!-- Row 13: Income Protector -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit13Title">Income Protector</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit13Desc">Bayaran pendapatan Tahunan jika berlaku TPD, Boleh Digunakan Untuk Kegunaan Bayaran Sijil Ataupun Kegunaan Peribadi.</div>
-                        </td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">RM4,000</td>
-                    </tr>
-
-                    <!-- Row 14: Contributor Protect -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit14Title">Contributor Protect</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit14Desc">Pelan diteruskan tanpa sumbangan jika peserta mengalami TPD/kematian.</div>
-                        </td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                    </tr>
-
-                    <!-- Row 15: Contributor Parent Protect -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit15Title">Contributor Parent Protect</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit15Desc">Pelan diteruskan tanpa sumbangan jika ibu bapa/penyumbang meninggal/TPD.</div>
-                        </td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                        <td class="plan-data">N/A</td>
-                    </tr>
-
-                    <!-- Row 16: Certificates Validity -->
-                    <tr class="even:bg-gray-50 odd:bg-white border-t border-gray-200 hover:bg-teal-50 transition duration-150">
-                        <td class="font-medium benefit-column">
-                            <span id="benefit16Title">Certificates Validity (Participant Age)</span>
-                            <div class="text-xs text-gray-500 font-normal mt-1 benefit-description" id="benefit16Desc">Umur maksimum peserta di mana sijil Takaful ini masih berkuat kuasa.</div>
-                        </td>
-                        <td class="plan-data">70</td>
-                        <td class="plan-data">70</td>
-                        <td class="plan-data">70</td>
-                        <td class="plan-data">70</td>
-                    </tr>
-                    
-                    <!-- PREMIUM ROW (Highlighted in Yellow/Amber) -->
-                    <tr class="premium-bg text-gray-800 border-t border-gray-300">
-                        <td class="p-3 md:p-4 text-left font-extrabold benefit-column text-sm md:text-lg rounded-bl-xl"><span id="premiumRow">Monthly Premium</span></td>
-                        <td class="plan-data font-extrabold text-sm md:text-lg">RM166.00</td>
-                        <td class="plan-data font-extrabold text-sm md:text-lg">RM186.00</td>
-                        <td class="plan-data font-extrabold text-sm md:text-lg">RM177.00</td>
-                        <td class="plan-data font-extrabold text-sm md:text-lg rounded-br-xl">RM205.00</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Footer / Disclaimer Area -->
-        <div class="footer-bg p-4 md:p-6 text-gray-700 space-y-2 rounded-b-xl">
-            <p class="font-bold text-center" id="preparedBy">Prepared by: MUHAMMAD HAFIZUL BIN CHE AMID</p>
-            <p class="text-xs md:text-sm text-center" id="disclaimer">
-                Prudential BSN Takaful Berhad ("PRUBSN") is a takaful operator registered under the Islamic Financial Services Act 2013 and is regulated by Bank Negara Malaysia (BNM).
-            </p>
-        </div>
-
+    <div style="text-align: center; margin-top: 30px;">
+        <small>Ini adalah perbandingan berdasarkan data yang disediakan dan mungkin tidak merangkumi semua terma dan syarat.</small>
     </div>
-
-    <script>
-        // All JavaScript translation content remains the same as previous version
-        const CONTENT = {
-            'ms': {
-                'page-title': 'PRUBSN Quotation Comparison (Melayu)',
-                'mainTitle': 'Perbandingan Quotation PRUBSN Anugerah Max',
-                'benefitHeader': 'Manfaat / Perlindungan',
-                'benefit1Title': 'Death Hibah & TPD',
-                'benefit1Desc': 'Pembayaran sekaligus jika berlaku kematian atau hilang upaya kekal & menyeluruh.',
-                'benefit2Title': 'Crisis Shield (43 penyakit kritikal)',
-                'benefit2Desc': 'Pembayaran sekali gus jika didiagnosis 1 daripada 43 penyakit kritikal.',
-                'benefit3Title': 'Accidental Protector Plus',
-                'benefit3Desc': 'Perlindungan tambahan untuk kematian atau TPD akibat kemalangan.',
-                'benefit4Title': 'Accidental Medical Protector',
-                'benefit4Desc': 'Tanggungjawab untuk kos perubatan akibat kemalangan (termasuk susulan).',
-                'benefit5Title': 'Room/board (per day)',
-                'benefit5Desc': 'Had harian untuk kos bilik dan penginapan di hospital.',
-                'benefit6Title': 'Annual Limit (per year)',
-                'benefit6Desc': 'Had maksimum perlindungan perubatan yang ditanggung setahun.',
-                'benefit7Title': 'Lifetime Limit',
-                'benefit7Desc': 'Had maksimum keseluruhan perlindungan perubatan sepanjang tempoh sijil.',
-                'benefit8Title': 'Additional Limit (Heart Attack/Cancer/Kidney Failure)',
-                'benefit8Desc': 'Had perbelanjaan perubatan tambahan untuk 3 penyakit kritikal utama ini.',
-                'benefit9Title': 'Gov Hosp Allowance (per day)',
-                'benefit9Desc': 'Bayaran tunai harian jika dimasukkan ke hospital kerajaan.',
-                'benefit10Title': 'Contribution Option',
-                'benefit10Desc': 'Pilihan untuk menaikkan sumbangan secara beransur-ansur dari masa ke masa.',
-                'benefit11Title': 'Saver',
-                'benefit11Desc': 'Sumbangan tambahan untuk tujuan simpanan.',
-                'benefit12Title': 'Coverage',
-                'benefit12Desc': 'Jenis pelan perubatan / pelan simpanan yang dipilih.',
-                'benefit13Title': 'Income Protector',
-                // KEMAS KINI: Memasukkan teks yang diubah oleh pengguna ke dalam objek JS.
-                'benefit13Desc': 'Bayaran pendapatan Tahunan jika berlaku TPD, Boleh Digunakan Untuk Kegunaan Bayaran Sijil Ataupun Kegunaan Peribadi.',
-                'benefit14Title': 'Contributor Protect',
-                'benefit14Desc': 'Pelan diteruskan tanpa sumbangan jika peserta mengalami TPD/kematian.',
-                'benefit15Title': 'Contributor Parent Protect',
-                'benefit15Desc': 'Pelan diteruskan tanpa sumbangan jika ibu bapa/penyumbang meninggal/TPD.',
-                'benefit16Title': 'Certificates Validity (Participant Age)',
-                'benefit16Desc': 'Umur maksimum peserta di mana sijil Takaful ini masih berkuat kuasa.',
-                'premiumRow': 'Monthly Premium',
-                'preparedBy': 'Disediakan oleh: MUHAMMAD HAFIZUL BIN CHE AMID',
-                'disclaimer': 'Prudential BSN Takaful Berhad ("PRUBSN") ialah pengendali takaful yang didaftarkan di bawah Akta Perkhidmatan Kewangan Islam 2013 dan dikawal selia oleh Bank Negara Malaysia (BNM).'
-            },
-            'en': {
-                'page-title': 'PRUBSN Quotation Comparison (English)',
-                'mainTitle': 'PRUBSN Anugerah Max Quotation Comparison',
-                'benefitHeader': 'Benefit / Coverage',
-                'benefit1Title': 'Death Hibah & TPD',
-                'benefit1Desc': 'Lump sum payment in the event of death or total and permanent disability (TPD).',
-                'benefit2Title': 'Crisis Shield (43 critical illnesses)',
-                'benefit2Desc': 'Lump sum payment upon diagnosis of 1 out of 43 critical illnesses.',
-                'benefit3Title': 'Accidental Protector Plus',
-                'benefit3Desc': 'Additional coverage for death or TPD due to accident.',
-                'benefit4Title': 'Accidental Medical Protector',
-                'benefit4Desc': 'Coverage for medical costs due to accident (including follow-up).',
-                'benefit5Title': 'Room/board (per day)',
-                'benefit5Desc': 'Daily limit for room and board costs in the hospital.',
-                'benefit6Title': 'Annual Limit (per year)',
-                'benefit6Desc': 'Maximum limit of medical coverage borne per year.',
-                'benefit7Title': 'Lifetime Limit',
-                'benefit7Desc': 'Maximum overall limit of medical coverage throughout the certificate period.',
-                'benefit8Title': 'Additional Limit (Heart Attack/Cancer/Kidney Failure)',
-                'benefit8Desc': 'Additional medical expense limit for these 3 major critical illnesses.',
-                'benefit9Title': 'Gov Hosp Allowance (per day)',
-                'benefit9Desc': 'Daily cash allowance if admitted to a government hospital.',
-                'benefit10Title': 'Contribution Option',
-                'benefit10Desc': 'Option to gradually increase contributions over time.',
-                'benefit11Title': 'Saver',
-                'benefit11Desc': 'Additional contribution for savings purposes.',
-                'benefit12Title': 'Coverage',
-                'benefit12Desc': 'Type of medical plan / savings plan chosen.',
-                'benefit13Title': 'Income Protector',
-                // KEMAS KINI: Terjemahan baharu.
-                'benefit13Desc': 'Annual income payment in the event of TPD, can be used for certificate payments or personal use.',
-                'benefit14Title': 'Contributor Protect',
-                'benefit14Desc': 'Plan continues without contribution if participant experiences TPD/death.',
-                'benefit15Title': 'Contributor Parent Protect',
-                'benefit15Desc': 'Plan continues without contribution if parent/contributor dies/experiences TPD.',
-                'benefit16Title': 'Certificates Validity (Participant Age)',
-                'benefit16Desc': 'Maximum age of participant where this Takaful certificate remains in force.',
-                'premiumRow': 'Monthly Premium',
-                'preparedBy': 'Prepared by: MUHAMMAD HAFIZUL BIN CHE AMID',
-                'disclaimer': 'Prudential BSN Takaful Berhad ("PRUBSN") is a takaful operator registered under the Islamic Financial Services Act 2013 and is regulated by Bank Negara Malaysia (BNM).'
-            }
-        };
-
-        function updateLanguage(lang) {
-            const translations = CONTENT[lang];
-            
-            // Update page title
-            document.getElementById('page-title').innerText = translations['page-title'];
-
-            // Update all text elements by ID
-            for (const key in translations) {
-                const element = document.getElementById(key);
-                if (element) {
-                    element.innerHTML = translations[key];
-                }
-            }
-
-            // Handle button styling
-            const msBtn = document.getElementById('lang-ms');
-            const enBtn = document.getElementById('lang-en');
-            
-            if (lang === 'ms') {
-                msBtn.classList.add('lang-active');
-                enBtn.classList.remove('lang-active');
-            } else {
-                enBtn.classList.add('lang-active');
-                msBtn.classList.remove('lang-active');
-            }
-        }
-
-        // Set default language to Malay on load
-        document.addEventListener('DOMContentLoaded', () => {
-            updateLanguage('ms');
-        });
-    </script>
+</div>
 
 </body>
 </html>
